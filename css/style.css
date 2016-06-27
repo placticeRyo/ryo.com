@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+/* ------------------------------------
+◆　all
+------------------------------------ */
+html, body {
+  color: #252525;
+  background-color: #fff;
+  font-family: "ヒラギノ明朝 ProN W3", "HiraMinProN-W3", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  font-size: 13px;
+	letter-spacing: 0.08em;
+  line-height: 1.7em;
+  width: 100%;
+  min-width: 1200px;
+  height: auto;
+	position: relative;
+	-webkit-text-size-adjust: 100%;
+}
+a {
+  color: #252525;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+.hover:hover {
+  cursor: pointer;
+  filter: alpha(opacity=70);
+  opacity: 0.7;
+}
+
+#wrapper {
+	width: 100%;
+  position: relative;
+}
+
+
+/* ------------------------------------
+◆　header
+------------------------------------ */
+#header {
+  width: 100%;
+  height: 80px;
+  background-color: #212121;
+  box-sizing: border-box;
+
+}
+#header h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  line-height: 80px;
+}
+
+/* ------------------------------------
+◆　content
+------------------------------------ */
+#content {
+  width: 100%;
+  height: 4000px;
+  position: relative;
+  display: table;;
+}
+
+#content .block {
+  width: 300px;
+  height: 100px;
+  border: 4px solid #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  font-family: 'Roboto Slab', serif;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 100px;
+}
+
+
+
+
+/* ------------------------------------
+◆　footer
+------------------------------------ */
+#footer {
+  width: 100%;
+  height: 50px;
+  background-color: #212121;
+}
+
+#footer p {
+  text-align: center;
+  color: white;
+  line-height: 50px;
+  font-size: 18px;
+}
