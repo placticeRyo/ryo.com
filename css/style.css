@@ -172,6 +172,96 @@ font-size: 30px;
 }
 
 
+
+/* ------------------------------------
+◆　container/blog
+------------------------------------ */
+
+#blog {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#blog h1 {
+  font-size: 30px;
+  margin: 50px 0;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#blog .blog1 {
+  height: 120px;
+  border-bottom: 1px solid #EFEFEF;
+  margin-bottom: 30px;
+}
+
+#blog .blog1 img {
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  float: left;
+}
+
+#blog .blog1 .text1 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-left: 150px;
+}
+
+#blog .blog1 .text2 {
+  margin-left: 150px;
+  margin-bottom: 30px;
+}
+
+#blog .blog2 {
+  height: 120px;
+  border-bottom: 1px solid #EFEFEF;
+  margin-bottom: 30px;
+}
+
+#blog .blog2 img {
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  float: left;
+}
+
+#blog .blog2 .text1 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-left: 150px;
+}
+
+#blog .blog2 .text2 {
+  margin-left: 150px;
+  margin-bottom: 30px;
+}
+
+#blog .blog3 {
+  height: 120px;
+  border-bottom: 1px solid #EFEFEF;
+  margin-bottom: 30px;
+}
+
+#blog .blog3 img {
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  float: left;
+}
+
+#blog .blog3 .text1 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-left: 150px;
+}
+
+#blog .blog3 .text2 {
+  margin-left: 150px;
+  margin-bottom: 30px;
+}
+
 /* ------------------------------------
 ◆　container/contact
 ------------------------------------ */
@@ -222,7 +312,6 @@ font-size: 30px;
 
 #contact .contact-form .submit-field input {
   display: block;
-
   width: 150px;
   background-color: #C71222;
   padding: 15px;
