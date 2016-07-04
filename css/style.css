@@ -54,6 +54,11 @@ h2 {
   margin-bottom: 30px;
 }
 
+.main-width {
+  width: 900px;
+  margin: 0 auto;
+}
+
 /* ------------------------------------
 ◆　header
 ------------------------------------ */
@@ -149,7 +154,7 @@ h2 {
 ------------------------------------ */
 #about {
   width: 100%;
-  padding: 40px 0px;
+  padding: 50px 0px;
   background-color: #EFEFEF;
 }
 
@@ -172,88 +177,42 @@ font-size: 30px;
 ------------------------------------ */
 
 #blog {
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 900px;
+  margin: 50px auto;
+
 }
 
-#blog h1 {
-  font-size: 30px;
-  margin: 50px 0;
-  text-align: center;
-  font-family: 'Quicksand', sans-serif;
+#blog .blog-list li {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
 }
 
-#blog .blog1 {
-  height: 120px;
-  border-bottom: 1px solid #EFEFEF;
-  margin-bottom: 30px;
+#blog .blog-list li:last-child {
+  border-bottom: none;
 }
 
-#blog .blog1 img {
+#blog .blog-list li a {
+  display: block;
+}
+
+#blog .blog-list li a img {
   width: 100px;
   height: 100px;
   margin: 0;
   float: left;
 }
 
-#blog .blog1 .text1 {
+#blog .blog-list li a .blog-list-info {
+  width: 750px;
+  float: right;
+}
+
+#blog .blog-list li a .blog-list-info h2 {
   font-size: 25px;
-  margin-bottom: 20px;
-  margin-left: 150px;
 }
 
-#blog .blog1 .text2 {
-  margin-left: 150px;
-  margin-bottom: 30px;
-}
-
-#blog .blog2 {
-  height: 120px;
-  border-bottom: 1px solid #EFEFEF;
-  margin-bottom: 30px;
-}
-
-#blog .blog2 img {
-  width: 100px;
-  height: 100px;
-  margin: 0;
-  float: left;
-}
-
-#blog .blog2 .text1 {
-  font-size: 25px;
-  margin-bottom: 20px;
-  margin-left: 150px;
-}
-
-#blog .blog2 .text2 {
-  margin-left: 150px;
-  margin-bottom: 30px;
-}
-
-#blog .blog3 {
-  height: 120px;
-  border-bottom: 1px solid #EFEFEF;
-  margin-bottom: 30px;
-}
-
-#blog .blog3 img {
-  width: 100px;
-  height: 100px;
-  margin: 0;
-  float: left;
-}
-
-#blog .blog3 .text1 {
-  font-size: 25px;
-  margin-bottom: 20px;
-  margin-left: 150px;
-}
-
-#blog .blog3 .text2 {
-  margin-left: 150px;
-  margin-bottom: 30px;
+#blog .blog-list li a .blog-list-info p {
 }
 
 /* ------------------------------------
