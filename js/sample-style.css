@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+/* ------------------------------------
+◆　all
+------------------------------------ */
+html, body {
+  color: #252525;
+  background-color: #fff;
+  /*font-family: "ヒラギノ明朝 ProN W3", "HiraMinProN-W3", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;*/
+  font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
+	letter-spacing: 0.08em;
+  line-height: 1.7em;
+  width: 100%;
+  min-width: 1200px;
+  height: auto;
+	position: relative;
+	-webkit-text-size-adjust: 100%;
+  color: #555;
+}
+a {
+  color: #252525;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+.hover:hover {
+  cursor: pointer;
+  filter: alpha(opacity=70);
+  opacity: 0.7;
+}
+
+#wrapper {
+	width: 100%;
+  position: relative;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 30px;
+}
+
+/* ------------------------------------
+◆　header
+------------------------------------ */
+#header {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  padding: 20px 40px;
+}
+
+#header h1 {
+  font-size: 40px;
+  font-weight: bold;
+  float: left;
+}
+
+#menu {
+  float: right;
+  margin-top: 10px;
+}
+
+#menu ul li {
+  float: left;
+  margin-right: 20px;
+
+}
+
+#menu ul li a {
+  display: block;
+  font-size: 18px;
+
+}
+
+/* ------------------------------------
+◆　container
+------------------------------------ */
+#contaner {
+  width: 100%;
+  position: relative;
+}
+
+
+
+/* ------------------------------------
+◆　container/main
+------------------------------------ */
+#main {
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+
+#main .main-content {
+  width: 500px;
+  height:240px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+#main .main-content p {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  margin: 0 auto 40px;
+  line-height: 1.8em;
+}
+
+#main .main-content a {
+  display: block;
+  width: 300px;
+  height: 50px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  line-height: 50px;
+  margin: 0 auto;
+  background-color: none;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all  0.3s ease;
+}
+
+#main .main-content a:hover {
+  background-color: #fff;
+  color: #555;
+}
+
+
+#blog {
+  height: 500px;
+}
+#blog h1 {
+  
+}
+
+#blog img{
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
