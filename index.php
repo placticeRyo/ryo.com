@@ -30,9 +30,25 @@
     <div class="main-width clearfix">
       <h2>Blog</h2>
       <ul class="blog-list clearfix">
+        <?php /* ループスタート */ ?>
+
         <li>
           <a class="clearfix" href="">
-            <img src="./image/image-blog1.jpeg"/>
+            <img src="<?php echo get_template_directory_uri(); ?>/image/image-blog1.jpeg"/>
+            <div class="blog-list-info">
+              <h3>titletitletitletitletitle</h3>
+              <p>somethingsomethingsomethingsomethingsomethingsomethingsomethingsomethingsomethingsomething</p>
+            </div>
+          </a>
+        </li>
+
+        <?php /* ループエンド */ ?>
+
+
+
+        <!--li>
+          <a class="clearfix" href="">
+            <img src="<?php echo get_template_directory_uri(); ?>/image/image-blog1.jpeg"/>
             <div class="blog-list-info">
               <h3>titletitletitletitletitle</h3>
               <p>somethingsomethingsomethingsomethingsomethingsomethingsomethingsomethingsomethingsomething</p>
@@ -41,22 +57,13 @@
         </li>
         <li>
           <a class="clearfix" href="">
-            <img src="./image/image-blog1.jpeg"/>
+            <img src="<?php echo get_template_directory_uri(); ?>/image/image-blog1.jpeg"/>
             <div class="blog-list-info">
               <h3>titletitletitletitletitle</h3>
               <p>somethingsomethingsomethingsomethingsomethingsomethingsomethingsomethingsomethingsomething</p>
             </div>
           </a>
-        </li>
-        <li>
-          <a class="clearfix" href="">
-            <img src="./image/image-blog1.jpeg"/>
-            <div class="blog-list-info">
-              <h3>titletitletitletitletitle</h3>
-              <p>somethingsomethingsomethingsomethingsomethingsomethingsomethingsomethingsomethingsomething</p>
-            </div>
-          </a>
-        </li>
+        </li-->
       </ul>
     </div>
   </div>
